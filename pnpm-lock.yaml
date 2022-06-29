@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@prisma/client': ^3.7.0
+  '@prisma/client': ^4.0.0
   '@swc/cli': ^0.1.51
   '@swc/core': ^1.2.108
   '@types/bcrypt': ^5.0.0
@@ -44,7 +44,7 @@ specifiers:
   nodemon: ^2.0.9
   pm2: ^5.1.0
   prettier: ^2.3.2
-  prisma: ^3.7.0
+  prisma: ^4.0.0
   supertest: ^6.2.2
   swagger-jsdoc: ^6.0.0
   swagger-ui-express: ^4.1.6
@@ -57,7 +57,7 @@ specifiers:
   winston-daily-rotate-file: ^4.5.5
 
 dependencies:
-  '@prisma/client': 3.15.2_prisma@3.15.2
+  '@prisma/client': 4.0.0_prisma@4.0.0
   bcrypt: 5.0.1
   class-transformer: 0.5.1
   class-validator: 0.13.2
@@ -71,7 +71,7 @@ dependencies:
   hpp: 0.2.3
   jsonwebtoken: 8.5.1
   morgan: 1.10.0
-  swagger-jsdoc: 6.2.1
+  swagger-jsdoc: 6.2.1_openapi-types@12.0.0
   swagger-ui-express: 4.4.0_express@4.18.1
   winston: 3.8.0
   winston-daily-rotate-file: 4.7.1_winston@3.8.0
@@ -106,9 +106,9 @@ devDependencies:
   nodemon: 2.0.18
   pm2: 5.2.0
   prettier: 2.7.1
-  prisma: 3.15.2
+  prisma: 4.0.0
   supertest: 6.2.3
-  ts-jest: 27.1.5_vs24vii5te355wytv6hb5zcmx4
+  ts-jest: 27.1.5_57pwx34dafyipfg47yfyh5gtyu
   ts-node: 10.8.1_e3kv77jakyxeprvegoaqb7vev4
   tsc-alias: 1.6.11
   tsconfig-paths: 3.14.1
@@ -142,7 +142,7 @@ packages:
     resolution: {integrity: sha512-QAkD5kK2b1WfjDS/UQn/qQkbwF31uqRjPTrsCs5ZG9BQGAkjwvqGFjjPqAuzac/IYzpPtRzjCP1WrTuAIjMrXg==}
     dev: false
 
-  /@apidevtools/swagger-parser/10.0.2:
+  /@apidevtools/swagger-parser/10.0.2_openapi-types@12.0.0:
     resolution: {integrity: sha512-JFxcEyp8RlNHgBCE98nwuTkZT6eNFPc1aosWV6wPcQph72TSEEu1k3baJD4/x1qznU+JiDdz8F5pTwabZh+Dhg==}
     peerDependencies:
       openapi-types: '>=7'
@@ -152,6 +152,7 @@ packages:
       '@apidevtools/swagger-methods': 3.0.2
       '@jsdevtools/ono': 7.1.3
       call-me-maybe: 1.0.1
+      openapi-types: 12.0.0
       z-schema: 4.2.4
     dev: false
 
@@ -935,9 +936,9 @@ packages:
       - supports-color
     dev: true
 
-  /@prisma/client/3.15.2_prisma@3.15.2:
-    resolution: {integrity: sha512-ErqtwhX12ubPhU4d++30uFY/rPcyvjk+mdifaZO5SeM21zS3t4jQrscy8+6IyB0GIYshl5ldTq6JSBo1d63i8w==}
-    engines: {node: '>=12.6'}
+  /@prisma/client/4.0.0_prisma@4.0.0:
+    resolution: {integrity: sha512-g1h2OGoRo7anBVQ9Cw3gsbjwPtvf7i0pkGxKeZICtwkvE5CZXW+xZF4FZdmrViYkKaAShbISL0teNpu9ecpf4g==}
+    engines: {node: '>=14.17'}
     requiresBuild: true
     peerDependencies:
       prisma: '*'
@@ -945,16 +946,16 @@ packages:
       prisma:
         optional: true
     dependencies:
-      '@prisma/engines-version': 3.15.1-1.461d6a05159055555eb7dfb337c9fb271cbd4d7e
-      prisma: 3.15.2
+      '@prisma/engines-version': 3.16.0-49.da41d2bb3406da22087b849f0e911199ba4fbf11
+      prisma: 4.0.0
     dev: false
 
-  /@prisma/engines-version/3.15.1-1.461d6a05159055555eb7dfb337c9fb271cbd4d7e:
-    resolution: {integrity: sha512-e3k2Vd606efd1ZYy2NQKkT4C/pn31nehyLhVug6To/q8JT8FpiMrDy7zmm3KLF0L98NOQQcutaVtAPhzKhzn9w==}
+  /@prisma/engines-version/3.16.0-49.da41d2bb3406da22087b849f0e911199ba4fbf11:
+    resolution: {integrity: sha512-PiZhdD624SrYEjyLboI0X7OugNbxUzDJx9v/6ldTKuqNDVUCmRH/Z00XwDi/dgM4FlqOSO+YiUsSiSKjxxG8cw==}
     dev: false
 
-  /@prisma/engines/3.15.1-1.461d6a05159055555eb7dfb337c9fb271cbd4d7e:
-    resolution: {integrity: sha512-NHlojO1DFTsSi3FtEleL9QWXeSF/UjhCW0fgpi7bumnNZ4wj/eQ+BJJ5n2pgoOliTOGv9nX2qXvmHap7rJMNmg==}
+  /@prisma/engines/3.16.0-49.da41d2bb3406da22087b849f0e911199ba4fbf11:
+    resolution: {integrity: sha512-u/rG4lDHALolWBLr3yebZ+N2qImp3SDMcu7bHNJuRDaYvYEXy/MqfNRNEgd9GoPsXL3gofYf0VzJf2AmCG3YVw==}
     requiresBuild: true
 
   /@sindresorhus/is/0.14.0:
@@ -4950,6 +4951,10 @@ packages:
       mimic-fn: 2.1.0
     dev: true
 
+  /openapi-types/12.0.0:
+    resolution: {integrity: sha512-6Wd9k8nmGQHgCbehZCP6wwWcfXcvinhybUTBatuhjRsCxUIujuYFZc9QnGeae75CyHASewBtxs0HX/qwREReUw==}
+    dev: false
+
   /optionator/0.8.3:
     resolution: {integrity: sha512-+IW9pACdk3XWmmTXG8m3upGUJst5XRGzxMRjXzAuJ1XnIFNvfhjjIuYkDvysnPQ7qzqVzLt78BCruntqRhWQbA==}
     engines: {node: '>= 0.8.0'}
@@ -5274,13 +5279,13 @@ packages:
       react-is: 17.0.2
     dev: true
 
-  /prisma/3.15.2:
-    resolution: {integrity: sha512-nMNSMZvtwrvoEQ/mui8L/aiCLZRCj5t6L3yujKpcDhIPk7garp8tL4nMx2+oYsN0FWBacevJhazfXAbV1kfBzA==}
-    engines: {node: '>=12.6'}
+  /prisma/4.0.0:
+    resolution: {integrity: sha512-Dtsar03XpCBkcEb2ooGWO/WcgblDTLzGhPcustbehwlFXuTMliMDRzXsfygsgYwQoZnAUKRd1rhpvBNEUziOVw==}
+    engines: {node: '>=14.17'}
     hasBin: true
     requiresBuild: true
     dependencies:
-      '@prisma/engines': 3.15.1-1.461d6a05159055555eb7dfb337c9fb271cbd4d7e
+      '@prisma/engines': 3.16.0-49.da41d2bb3406da22087b849f0e911199ba4fbf11
 
   /progress/2.0.3:
     resolution: {integrity: sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==}
@@ -5956,7 +5961,7 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /swagger-jsdoc/6.2.1:
+  /swagger-jsdoc/6.2.1_openapi-types@12.0.0:
     resolution: {integrity: sha512-l2BwFf7wzNPb11+NRRy65X+kuHUGLb3ZuGFn6A8xDXXTu73YzJmCiy+LED/6QsOgPBPgO3u3sDEz6KuOHAlCtA==}
     engines: {node: '>=12.0.0'}
     hasBin: true
@@ -5965,17 +5970,17 @@ packages:
       doctrine: 3.0.0
       glob: 7.1.6
       lodash.mergewith: 4.6.2
-      swagger-parser: 10.0.2
+      swagger-parser: 10.0.2_openapi-types@12.0.0
       yaml: 2.0.0-1
     transitivePeerDependencies:
       - openapi-types
     dev: false
 
-  /swagger-parser/10.0.2:
+  /swagger-parser/10.0.2_openapi-types@12.0.0:
     resolution: {integrity: sha512-9jHkHM+QXyLGFLk1DkXBwV+4HyNm0Za3b8/zk/+mjr8jgOSiqm3FOTHBSDsBjtn9scdL+8eWcHdupp2NLM8tDw==}
     engines: {node: '>=10'}
     dependencies:
-      '@apidevtools/swagger-parser': 10.0.2
+      '@apidevtools/swagger-parser': 10.0.2_openapi-types@12.0.0
     transitivePeerDependencies:
       - openapi-types
     dev: false
@@ -6117,7 +6122,7 @@ packages:
     resolution: {integrity: sha512-XrHUvV5HpdLmIj4uVMxHggLbFSZYIn7HEWsqePZcI50pco+MPqJ50wMGY794X7AOOhxOBAjbkqfAbEe/QMp2Lw==}
     dev: false
 
-  /ts-jest/27.1.5_vs24vii5te355wytv6hb5zcmx4:
+  /ts-jest/27.1.5_57pwx34dafyipfg47yfyh5gtyu:
     resolution: {integrity: sha512-Xv6jBQPoBEvBq/5i2TeSG9tt/nqkbpcurrEG1b+2yfBrcJelOZF9Ml6dmyMh7bcW9JyFbRYpR5rxROSlBLTZHA==}
     engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
     hasBin: true
@@ -6138,6 +6143,7 @@ packages:
       esbuild:
         optional: true
     dependencies:
+      '@babel/core': 7.18.6
       '@types/jest': 27.4.1
       bs-logger: 0.2.6
       fast-json-stable-stringify: 2.1.0

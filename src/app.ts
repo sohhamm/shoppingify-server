@@ -30,6 +30,7 @@ class App {
 
   public listen() {
     this.app.listen(this.port, () => {
+      logger.info(process.env.DATABASE_URL)
       logger.info(`=================================`);
       logger.info(`======= ENV: ${this.env} =======`);
       logger.info(`🚀 App listening on the port ${this.port}`);

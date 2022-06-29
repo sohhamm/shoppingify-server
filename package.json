@@ -1,7 +1,7 @@
 {
   "name": "shoppingify-server",
   "version": "0.0.0",
-  "description": "TypeScript + Prisma + MySQL + Express API Server",
+  "description": "TypeScript + Prisma + Postgres + Express API Server",
   "author": "",
   "license": "ISC",
   "scripts": {

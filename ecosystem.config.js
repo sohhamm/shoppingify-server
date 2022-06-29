@@ -7,7 +7,7 @@
  module.exports = {
   apps: [
     {
-      name: 'prod', // pm2 start App name
+      name: 'shoppingify-server-prod', // pm2 start App name
       script: 'dist/server.js',
       exec_mode: 'cluster', // 'cluster' or 'fork'
       instance_var: 'INSTANCE_ID', // instance variable
@@ -20,12 +20,12 @@
       output: './logs/access.log', // pm2 log file
       error: './logs/error.log', // pm2 error log file
       env: { // environment variable
-        PORT: 3000,
+        PORT: 5000,
         NODE_ENV: 'production',
       },
     },
     {
-      name: 'dev', // pm2 start App name
+      name: 'shoppingify-server-dev', // pm2 start App name
       script: 'ts-node', // ts-node
       args: '-r tsconfig-paths/register --transpile-only src/server.ts', // ts-node args
       exec_mode: 'cluster', // 'cluster' or 'fork'
@@ -39,16 +39,16 @@
       output: './logs/access.log', // pm2 log file
       error: './logs/error.log', // pm2 error log file
       env: { // environment variable
-        PORT: 3000,
+        PORT: 5000,
         NODE_ENV: 'development',
       },
     },
   ],
   deploy: {
     production: {
-      user: 'user',
+      user: 'sohhamm',
       host: '0.0.0.0',
-      ref: 'origin/master',
+      ref: 'origin/main',
       repo: 'git@github.com:repo.git',
       path: 'dist/server.js',
       'post-deploy': 'npm install && npm run build && pm2 reload ecosystem.config.js --only prod',

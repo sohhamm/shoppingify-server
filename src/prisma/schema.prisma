@@ -8,7 +8,20 @@ datasource db {
 }
 
 model User {
+  @@map("users")
   id       Int    @id @default(autoincrement())
   email    String @unique
   password String
+}
+
+model Item {
+  @@map("items")
+  id Int @id @default(autoincrement())
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  name String @unique
+  imageUrl String?
+  note String?
+
+  @@index([name])
 }

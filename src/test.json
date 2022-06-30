@@ -1,0 +1,14 @@
+{
+    "image_url": "https://firebasestorage.googleapis.com/v0/b/sikka-pro-prod.appspot.com/o/SIKKA%20PRO%20UPDATE%20BANNER%20RC.png?alt=media&token=23237ca3-62c0-473a-be21-bc6d4b4dc48a",
+    "title": {
+      "hi": "नया अपडेट उपलब्ध है",
+      "en": "New Update Available"
+    },
+    "description": {
+      "hi": "%3Cul%3E%0D%0A%3Cli%3E%E0%A4%B9%E0%A4%AE%E0%A4%A8%E0%A5%87+%E0%A4%A6%E0%A5%88%E0%A4%A8%E0%A4%BF%E0%A4%95+%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF+%E0%A4%9C%E0%A5%8B%E0%A4%A1%E0%A4%BC%E0%A5%87+%E0%A4%B9%E0%A5%88%E0%A4%82+%E0%A4%A4%E0%A4%BE%E0%A4%95%E0%A4%BF+%E0%A4%86%E0%A4%AA+%E0%A4%AC%E0%A4%BF%E0%A4%A8%E0%A4%BE+%E0%A4%95%E0%A4%BF%E0%A4%B8%E0%A5%80+%E0%A4%9A%E0%A5%82%E0%A4%95+%E0%A4%95%E0%A5%87+%E0%A4%85%E0%A4%AA%E0%A4%A8%E0%A5%87+%E0%A4%A6%E0%A4%BF%E0%A4%A8-%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A4%E0%A4%BF%E0%A4%A6%E0%A4%BF%E0%A4%A8+%E0%A4%95%E0%A5%87+%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A5%8B%E0%A4%82+%E0%A4%95%E0%A5%8B+%E0%A4%86%E0%A4%B8%E0%A4%BE%E0%A4%A8%E0%A5%80+%E0%A4%B8%E0%A5%87+%E0%A4%AA%E0%A5%82%E0%A4%B0%E0%A4%BE+%E0%A4%95%E0%A4%B0+%E0%A4%B8%E0%A4%95%E0%A5%87%E0%A4%82%E0%A5%A4+%3C%2Fli%3E%0D%0A%3Cli%3E%E0%A4%85%E0%A4%AC+%E0%A4%85%E0%A4%AA%E0%A4%A8%E0%A4%BE+%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A5%8B%E0%A4%AB%E0%A4%BE%E0%A4%87%E0%A4%B2+%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%A1+%E0%A4%8F%E0%A4%95%E0%A5%8D%E0%A4%B8%E0%A5%87%E0%A4%B8+%E0%A4%95%E0%A4%B0%E0%A5%87%E0%A4%82%E0%A5%A4+%3C%2Fli%3E%0D%0A%3Cli%3E%E0%A4%B9%E0%A5%81%E0%A4%A1+%E0%A4%95%E0%A5%87+%E0%A4%A8%E0%A5%80%E0%A4%9A%E0%A5%87+%E0%A4%95%E0%A5%81%E0%A4%9B+%E0%A4%AC%E0%A4%97%E0%A5%8D%E0%A4%B8+%E0%A4%95%E0%A5%8B+%E0%A4%A0%E0%A5%80%E0%A4%95+%E0%A4%95%E0%A4%BF%E0%A4%AF%E0%A4%BE+%E0%A4%94%E0%A4%B0+%E0%A4%90%E0%A4%AA+%E0%A4%95%E0%A5%87+%E0%A4%85%E0%A4%A8%E0%A5%81%E0%A4%AD%E0%A4%B5+%E0%A4%95%E0%A5%8B+%E0%A4%94%E0%A4%B0+%E0%A4%85%E0%A4%A7%E0%A4%BF%E0%A4%95+%E0%A4%AC%E0%A5%87%E0%A4%B9%E0%A4%A4%E0%A4%B0+%E0%A4%AC%E0%A4%A8%E0%A4%BE%E0%A4%AF%E0%A4%BE%E0%A5%A4+%3C%2Fli%3E%0D%0A%3C%2Ful%3E",
+      "en": "%3Cul%3E%0D%0A%3Cli%3EAdded+Daily+Tasks+so+you+can+easily+complete+your+day+to+day+tasks+without+missing+any.+%3C%2Fli%3E%0D%0A%3Cli%3EAccess+your+own+profile+card.+%3C%2Fli%3E%0D%0A%3Cli%3EFixed+some+bugs+under+the+hood+%26+made+app+experience+more+smooth.+%3C%2Fli%3E%0D%0A%3C%2Ful%3E"
+    },
+    "download_link": "https://sikkaapp.in/download",
+    "version":7,
+    "force_update": false
+}
